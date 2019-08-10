@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Creates boilerplate templates",
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thedanny/kernavo.git"
+  },
   "bin": {
     "@ddebela/kernavo": "bin/kernavo",
     "create-project": "bin/kernavo"
@@ -17,6 +21,7 @@
     "cli",
     "templates"
   ],
+  "preferGlobal": true,
   "author": "Daniel Debela",
   "license": "MIT",
   "dependencies": {
