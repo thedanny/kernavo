@@ -1,0 +1,32 @@
+#build outputs
+src/**/bin
+src/.vs
+
+#web compiled outputs
+
+
+# nuget packages #
+src/packages/
+
+
+#user settings
+*.dbmdl
+*.suo
+*.EMS.sln.DotSettings.user
+*/*.user
+*/*.suo
+
+
+#Web ui
+node_modules/
+src/*web/components/
+src/*web/tmp/
+src/*web/dist/
+src/*web/**/env.js
+
+
+# ReSharper 
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
