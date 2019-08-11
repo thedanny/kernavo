@@ -1,6 +1,6 @@
 {
   "name": "kernavo-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Creates boilerplate templates",
   "main": "src/index.js",
   "repository": {
@@ -8,8 +8,7 @@
     "url": "git://github.com/thedanny/kernavo.git"
   },
   "bin": {
-    "@ddebela/kernavo": "bin/kernavo",
-    "create-project": "bin/kernavo"
+    "kernavo": "./bin/kernavo.js"
   },
   "publishConfig": {
     "access": "public"
