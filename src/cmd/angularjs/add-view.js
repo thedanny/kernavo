@@ -24,12 +24,12 @@ module.exports = (args, conf) => {
 
     var root = args.root||'';
     
-    const parent=path.join(selctedModeul.path, name, root);
+    const parent=path.join(selctedModeul.path,root, name );
 
     if(!fs.existsSync( path.dirname(parent))){
         fs.mkdirSync(path.dirname(parent), 0744);
     }
-    
+
     if (!fs.existsSync(parent)) {
         console.log('creating dir')
         fs.mkdirSync(parent, 0744);
